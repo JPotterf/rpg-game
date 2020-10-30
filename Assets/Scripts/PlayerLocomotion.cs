@@ -48,6 +48,7 @@ namespace Com.Potterf.RpgGame
             moveDirection += cameraObject.right * inputHandler.horizontal;
 
             moveDirection.Normalize();
+            moveDirection.y = 0;
 
             float speed = movementSpeed;
             moveDirection *= speed;
@@ -66,7 +67,7 @@ namespace Com.Potterf.RpgGame
         #endregion
 
         #region Movement
-        Vector3 normalVector = Vector3.up;
+        Vector3 normalVector;
         Vector3 targetPosition;
 
         private void HandleRotation(float delta)

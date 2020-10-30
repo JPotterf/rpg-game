@@ -2054,7 +2054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4158096630655302}
   - component: {fileID: 95905397883882224}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RPGHeroPolyart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
